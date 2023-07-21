@@ -24,22 +24,22 @@ class uwuipy:
         '***runs away***',
         '***screeches***',
         '***walks away***',
-        '***sees bulge***',
+#        '***sees bulge***',
         '***looks at you***',
-        '***notices buldge***',
+#        '***notices buldge***',
         '***starts twerking***',
         '***huggles tightly***',
         '***boops your nose***',
         '***wags my tail***',
         '***pounces on you***',
         '***nuzzles your necky wecky***',
-        '***unzips your pants***',
+#        '***unzips your pants***',
         '***licks lips***',
         '***glomps and huggles***',
         '***glomps***',
         '***looks around suspiciously***',
         '***smirks smuggly***',
-        '***pounces on your buldge***',
+#        '***pounces on your buldge***',
         '***breaks into your house and aliases neofetch to rm -rf --no-preserve-root /***',
     ]
 
@@ -215,7 +215,7 @@ class uwuipy:
         # return the joined string
         return ' '.join(words)
 
-    def uwuify(self, msg):
+    def uwuify(self, msg: str) -> str:
         msg = self._uwuify_words(msg)
         msg = self._uwuify_spaces(msg)
         msg = self._uwuify_exclamations(msg)

@@ -1,4 +1,4 @@
-from uwuipy import uwuipy
+from uwuivy import uwuipy
 from os import getenv
 import argparse
 

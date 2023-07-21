@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "uwuipy"
-version = "0.1.7"
+name = "uwuivy"
+version = "0.1.0"
 description = "Allows the easy implementation of uwuifying words for applications like Discord bots and websites"
-authors = ["Cuprum77", "diminDDL", "R2Boyo25", "ThatRedKite", "pin-lee"]
+authors = ["Cuprum77", "diminDDL", "R2Boyo25", "ThatRedKite", "pin-lee", "Ginger"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "uwuipy"}]
+packages = [{include = "uwuivy"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
 [tool.poetry.urls]
-homepage = "https://github.com/Cuprum77/uwuipy"
+homepage = "https://github.com/Vyxal/uwuivy"
 
 
 [build-system]
