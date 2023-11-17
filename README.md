@@ -1,4 +1,6 @@
 
+[uwuipy now has a flag to disable NSFW](https://github.com/Cuprum77/uwuipy/pull/6), so this repository is no longer necessary.
+
 # uwuipy
 An advanced uwuifier for python.
 ## Install
